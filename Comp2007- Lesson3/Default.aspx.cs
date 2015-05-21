@@ -13,5 +13,24 @@ namespace Comp2007__Lesson3
         {
 
         }
+
+        protected void LoginButton_Click(object sender, EventArgs e)
+        {
+            InstructionLabel.Text = "Thank you for login..";
+            UserNameTextbox.Text = "";
+            PasswordTextbox.Text = "";
+        }
+
+        protected void UserNameTextbox_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void UserNameTextbox_TextChanged1(object sender, EventArgs e)
+        {
+            UserNameTextbox.Focus();
+        }
+
+        
     }
 }
